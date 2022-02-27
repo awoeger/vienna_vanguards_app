@@ -1,0 +1,44 @@
+$gray-color-dark: #41474D;
+$gray-color-medium: #879199;
+$gray-color-light: #E1E9F0;
+
+$primary-color-dark: #031E33;
+$primary-color-medium: #063C69;
+$primary-color-light: #00457C;
+
+// TODO: orange color
+// $secondary-color-dark: #00457C;
+// $secondary-color-medium: #00457C;
+// $secondary-color-light: #00457C;
+
+$font-heading-lg: 3rem;
+$font-heading-md: 2.5rem;
+$font-heading-sm: 2.25rem;
+$font-heading-xs: 1.5rem;
+$font-heading-xxs: 1.25rem;
+$font-copy-lg: 18px;
+$font-copy-md: 16px;
+$font-copy-sm: 14px;
+
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: $gray-color-dark;
+  padding: 20px;
+}
+.text {
+  font-weight: 700;
+  text-align: center;
+  font-size: $font-heading-sm;
+  color: $primary-color-dark;
+}
+
+.gameEngine{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+}
