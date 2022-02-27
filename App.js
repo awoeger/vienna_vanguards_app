@@ -1,20 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
+import Appstyles from './App.scss';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Hello my sexy Quidcrush</Text>
+    <View style={Appstyles.container}>
+      <Text style={Appstyles.text}>Hello my sexy Quidcrush</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
