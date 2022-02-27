@@ -9,16 +9,8 @@ export default function App() {
     <View style={Appstyles.container}>
       <Text style={Appstyles.text}>Hey hey </Text>
       <GameEngine entities={entities()} style={Appstyles.gameEngine}></GameEngine>
+      <Text style={Appstyles.text}>Hello my sexy Quidcrush</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
